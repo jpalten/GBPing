@@ -13,7 +13,7 @@
 
 #import "GBPing.h"
 
-#import "GBToolbox.h"
+//#import "GBToolbox.h"
 
 #if TARGET_OS_EMBEDDED || TARGET_IPHONE_SIMULATOR
     #import <CFNetwork/CFNetwork.h>
@@ -23,16 +23,16 @@
 
 #import "ICMPHeader.h"
 
-#include <sys/socket.h>
-#include <netinet/in.h>
+//#include <sys/socket.h>
+//#include <netinet/in.h>
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <errno.h>
-#include <string.h>
-#include <sys/types.h>
-#include <arpa/inet.h>
+//#include <stdio.h>
+//#include <stdlib.h>
+//#include <unistd.h>
+//#include <errno.h>
+//#include <string.h>
+//#include <sys/types.h>
+//#include <arpa/inet.h>
 #include <netdb.h>
 
 @interface GBPing ()
